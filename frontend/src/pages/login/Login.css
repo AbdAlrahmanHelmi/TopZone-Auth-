@@ -1,0 +1,51 @@
+
+
+.login {
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+.login h3,
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+form button {
+  display: block;
+  margin: 20px auto;
+  width: 60%;
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+form button:hover {
+  background: var(--primary-lighten);
+}
+
+.loginInput {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px auto;
+}
+input.error {
+  border: 1px solid var(--error);
+}

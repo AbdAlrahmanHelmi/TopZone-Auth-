@@ -1,0 +1,66 @@
+.signup {
+  width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.signup h3 {
+  text-align: center;
+}
+.inputForm {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 10px;
+}
+.selectCountry {
+  text-align: center;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  border-bottom: grey 1px solid;
+}
+.selectCountry select {
+  border: none;
+}
+
+form button {
+  display: block;
+  margin: 20px auto auto auto;
+  width: 50%;
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+form button:hover {
+  background: var(--primary-lighten);
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+@media screen and (max-width: 768px) {
+  .inputForm {
+    display: grid;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
